@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#173d32">
+<meta name="description" content="CƯỜNG CHÂN CHẤT — Sống thật, sống tử tế, sống có ích. Câu chuyện về sức khỏe, gia đình, biết ơn và hành trình học hỏi suốt đời của Lăng Đình Cường.">
+<title>CƯỜNG CHÂN CHẤT | Sống thật – Sống tử tế – Sống có ích</title>
+<style>
+:root{--forest:#173d32;--forest2:#285746;--moss:#8b9b6b;--cream:#f5f1e7;--paper:#fffdf7;--ink:#24342d;--muted:#66746b;--gold:#c69a54;--line:#e5e0d4;--shadow:0 18px 55px rgba(23,61,50,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.7}a{color:inherit;text-decoration:none}.sans,button,.eyebrow,.nav,.tag,.meta,.footer-small{font-family:Arial,Helvetica,sans-serif}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(245,241,231,.93);backdrop-filter:blur(12px);border-bottom:1px solid rgba(229,224,212,.8)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:1.4px;color:var(--forest)}.brand-mark{width:42px;height:42px;border-radius:50% 50% 50% 8px;background:var(--forest);color:#f7f1df;display:grid;place-items:center;font-family:Georgia;font-size:22px;transform:rotate(-4deg)}.nav-links{display:flex;gap:25px;font-size:13px;text-transform:uppercase;letter-spacing:1px}.nav-links a:hover{color:var(--gold)}.menu-btn{display:none;background:none;border:1px solid var(--line);padding:8px 12px;border-radius:8px;color:var(--forest)}
+.hero{background:var(--forest);color:#f8f3e7;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:520px;height:520px;border:1px solid rgba(220,203,155,.22);border-radius:50%;right:-140px;top:-190px;box-shadow:0 0 0 38px rgba(220,203,155,.035),0 0 0 85px rgba(220,203,155,.025)}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center;padding:94px 0 100px;position:relative}.eyebrow{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:700}.hero h1{font-size:clamp(42px,6vw,76px);line-height:1.03;letter-spacing:-2px;margin:20px 0}.hero h1 span{color:#d6c89e;font-style:italic;font-weight:400}.hero p{max-width:570px;color:#d8e0d7;font-size:18px}.hero-quote{margin:30px 0 28px;padding-left:18px;border-left:2px solid var(--gold);font-size:21px;font-style:italic;color:#f5e8c9}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:3px;font:700 12px Arial;letter-spacing:1px;text-transform:uppercase;transition:.2s}.btn-gold{background:var(--gold);color:#172e26}.btn-outline{border:1px solid rgba(255,255,255,.38);color:#fff}.btn:hover{transform:translateY(-2px)}.hero-art{min-height:410px;position:relative;display:grid;place-items:center}.sun{width:245px;height:245px;border-radius:50%;background:linear-gradient(145deg,#d8c797,#a8a878);position:absolute;top:20px;right:12%;opacity:.95}.hill{position:absolute;bottom:0;left:0;width:100%;height:58%;background:#496b50;clip-path:polygon(0 50%,20% 25%,36% 44%,58% 0,78% 35%,100% 14%,100% 100%,0 100%)}.hill.back{height:43%;background:#78906a;opacity:.85;clip-path:polygon(0 35%,18% 10%,44% 48%,65% 20%,82% 42%,100% 5%,100% 100%,0 100%)}.path{position:absolute;bottom:0;left:43%;width:23%;height:49%;background:#c8b78b;clip-path:polygon(44% 0,58% 0,100% 100%,0 100%);opacity:.8}.figure{position:absolute;bottom:21%;left:47%;width:9px;height:80px;background:#1b3028;border-radius:8px;transform:rotate(4deg)}.figure:before{content:"";position:absolute;width:25px;height:25px;border-radius:50%;background:#1b3028;top:-20px;left:-8px}.figure:after{content:"";position:absolute;width:45px;height:8px;background:#1b3028;left:-18px;top:24px;transform:rotate(-24deg);border-radius:5px}.art-caption{position:absolute;bottom:14px;right:0;font:11px Arial;letter-spacing:2px;color:#e1d8b9;text-transform:uppercase}
+.section{padding:88px 0}.section-head{max-width:680px;margin-bottom:38px}.section-head h2{font-size:clamp(31px,4vw,48px);line-height:1.12;color:var(--forest);margin:12px 0}.section-head p{color:var(--muted);font-size:17px}.story-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:55px;align-items:start}.story-note{background:var(--forest);color:#f7f1e5;padding:32px;box-shadow:var(--shadow);position:sticky;top:100px}.story-note .big-number{font-size:68px;color:#d6c89e;line-height:1}.story-note p{color:#d9e0d7}.story-note small{font:11px Arial;letter-spacing:2px;color:var(--gold);text-transform:uppercase}.story-copy p{font-size:18px;margin-top:0;margin-bottom:20px}.story-copy strong{color:var(--forest)}.pullquote{font-size:27px!important;line-height:1.35;color:var(--forest);border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);padding:23px 0;margin:28px 0!important;font-style:italic}
+.timeline{background:#e9e5d8}.timeline-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.milestone{padding:27px;background:var(--paper);border:1px solid var(--line);min-height:220px}.milestone .year{font:700 11px Arial;letter-spacing:2px;color:var(--gold)}.milestone h3{color:var(--forest);font-size:23px;margin:12px 0 9px}.milestone p{margin:0;color:var(--muted);font-size:15px}
+.values{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.value{border-top:2px solid var(--moss);padding:18px 12px 8px}.value span{font-size:27px}.value h3{font-size:17px;color:var(--forest);margin:8px 0}.value p{font:13px/1.6 Arial;color:var(--muted);margin:0}
+.posts{background:var(--paper)}.post-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.post{border:1px solid var(--line);padding:26px;display:flex;flex-direction:column;min-height:270px;transition:.25s}.post:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.tag{font-size:10px;letter-spacing:2px;color:#8a7447;text-transform:uppercase;font-weight:700}.post h3{font-size:24px;line-height:1.2;color:var(--forest);margin:15px 0 10px}.post p{font-size:15px;color:var(--muted);margin:0 0 20px}.read{margin-top:auto;font:700 11px Arial;letter-spacing:1.5px;text-transform:uppercase;color:var(--forest)}
+.manifesto{background:var(--forest);color:#f8f2e5;text-align:center;padding:88px 0}.manifesto h2{font-size:clamp(32px,4.5vw,54px);line-height:1.2;max-width:800px;margin:18px auto}.manifesto p{max-width:650px;margin:0 auto 25px;color:#d4ded5;font-size:17px}.manifesto .signature{color:#d6c89e;font-style:italic;font-size:20px}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px}.contact-card{padding:30px;background:var(--paper);border:1px solid var(--line)}.contact-card h3{font-size:26px;color:var(--forest);margin-top:0}.contact-card p{color:var(--muted)}.contact-card input,.contact-card textarea{width:100%;padding:13px;margin:7px 0;border:1px solid var(--line);background:#fffdf8;font:14px Arial;border-radius:2px}.contact-card textarea{min-height:110px;resize:vertical}.contact-card button{cursor:pointer;border:0}.note{font:12px Arial;color:var(--muted);margin-top:12px}
+footer{background:#102d25;color:#dce4da;padding:28px 0}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:20px}.footer-small{font-size:11px;letter-spacing:1px;color:#b4c2b2}.top{position:fixed;right:18px;bottom:18px;background:var(--gold);color:var(--forest);width:42px;height:42px;border:0;border-radius:50%;font-size:20px;cursor:pointer;box-shadow:var(--shadow)}
+@media(max-width:800px){.hero-grid,.story-grid,.contact-grid{grid-template-columns:1fr}.hero-grid{padding:65px 0 55px;gap:15px}.hero-art{min-height:300px}.story-note{position:static}.timeline-grid,.post-grid{grid-template-columns:1fr 1fr}.values{grid-template-columns:repeat(2,1fr)}.nav-links{display:none;position:absolute;left:0;right:0;top:75px;background:var(--cream);padding:20px 4%;flex-direction:column;border-bottom:1px solid var(--line)}.nav-links.open{display:flex}.menu-btn{display:block}.section{padding:65px 0}}
+@media(max-width:520px){.timeline-grid,.post-grid{grid-template-columns:1fr}.hero h1{letter-spacing:-1px}.hero p{font-size:16px}.footer-inner{align-items:flex-start;flex-direction:column}.sun{width:190px;height:190px}.hero-art{min-height:260px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#dau-trang" aria-label="Cường Chân Chất - Trang chủ"><span class="brand-mark">C</span><span>CƯỜNG CHÂN CHẤT</span></a>
+    <nav class="nav-links" id="navLinks"><a href="#cau-chuyen">Câu chuyện</a><a href="#hanh-trinh">Hành trình</a><a href="#gia-tri">Giá trị sống</a><a href="#goc-viet">Góc chia sẻ</a><a href="#ket-noi">Kết nối</a></nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Mở menu">☰</button>
+  </div>
+</header>
+<main id="dau-trang">
+<section class="hero">
+ <div class="wrap hero-grid">
+  <div>
+   <div class="eyebrow">Người truyền lực bằng đời sống thực</div>
+   <h1>Sống thật.<br><span>Sống tử tế.</span><br>Sống có ích.</h1>
+   <p>Tôi là Lăng Đình Cường. Tôi không kể chuyện để tỏ ra mình giỏi hơn ai. Tôi chỉ muốn chia sẻ những điều đã trải qua, đang học hỏi và đang cố gắng sống tốt hơn mỗi ngày.</p>
+   <div class="hero-quote">“Càng đi xa, càng cần biết đường trở về.”</div>
+   <div class="actions"><a class="btn btn-gold" href="#cau-chuyen">Đọc câu chuyện của tôi</a><a class="btn btn-outline" href="#goc-viet">Ghé góc chia sẻ</a></div>
+  </div>
+  <div class="hero-art" role="img" aria-label="Minh họa mặt trời lên trên những ngọn đồi xanh và con đường trở về">
+   <div class="sun"></div><div class="hill back"></div><div class="hill"></div><div class="path"></div><div class="figure"></div><div class="art-caption">Một ngày mới · Một bước chân mới</div>
+  </div>
+ </div>
+</section>
+<section class="section" id="cau-chuyen">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Câu chuyện phía sau cái tên</div><h2>Tôi không bắt đầu từ sự hoàn hảo.</h2><p>Tôi bắt đầu từ những ngày khó khăn, từ lòng biết ơn và từ mong muốn sống có ích hơn khi tuổi đời ngày một nhiều.</p></div>
+  <div class="story-grid">
+   <aside class="story-note"><div class="big-number">55</div><small>Tuổi đời · Một chặng mới</small><p>Có những điều phải đi qua nửa đời người, ta mới hiểu: sức khỏe, gia đình, sự bình an và lòng tử tế quý đến nhường nào.</p><p><strong>Không cần hơn người khác.</strong> Chỉ cần hôm nay tốt hơn chính mình của hôm qua.</p></aside>
+   <article class="story-copy">
+    <p>Tôi là <strong>Lăng Đình Cường</strong>, một người đàn ông lớn lên từ đời sống bình dị. Tôi hiểu cảm giác thiếu thốn, hiểu những ngày cơ thể yếu đuối và hiểu rằng không phải lúc nào cuộc đời cũng đi theo điều mình mong muốn.</p>
+    <p>Ngày trước, tôi từng có thời điểm chỉ nặng 39 kg trước một ca phẫu thuật. Những năm tháng ấy để lại trong tôi một điều rất thật: <strong>sức khỏe không phải thứ có thể đem ra mặc cả mãi với cuộc đời.</strong></p>
+    <p>Từ đó, tôi kiên trì học cách chăm sóc bản thân bằng những việc gần gũi: ăn uống điều độ, ngủ nghỉ hợp lý, vận động, tập thở, giữ tâm bình tĩnh và biết ơn những gì mình đang có. Tôi chia sẻ đây là trải nghiệm của riêng mình, không phải lời hứa chữa khỏi bệnh hay sự thay thế cho tư vấn y tế.</p>
+    <p class="pullquote">“Tôi không cần chứng minh mình trẻ. Tôi chỉ muốn mỗi ngày còn đủ sức để yêu thương, học hỏi và làm một việc có ích.”</p>
+    <p>Ở tuổi 55, tôi vẫn học công nghệ mới, tìm hiểu trí tuệ nhân tạo, tập làm nội dung và bắt đầu những việc trước đây mình chưa biết. Tôi nhận ra tuổi tác không nhất thiết đóng cánh cửa lại. Đôi khi, nó chỉ nhắc ta chọn điều đáng làm hơn.</p>
+    <p>Và có một kỷ niệm tôi muốn giữ thật lâu: ngày 5 tháng 4 năm 2026, tôi hoàn thành cự ly <strong>21 km tại Đền Hùng Marathon – “Về Nguồn”</strong>. Tấm huy chương đầu đời không chỉ ghi lại một cuộc chạy. Với tôi, đó là lời nhắc rằng nếu còn biết cố gắng, ta vẫn có thể viết tiếp câu chuyện của mình.</p>
+    <p>Tôi lập góc nhỏ <strong>CƯỜNG CHÂN CHẤT</strong> để kể chuyện sức khỏe, cha mẹ, vợ chồng, gia đình, học hỏi và lòng biết ơn. Không phải để dạy ai sống thế nào. Chỉ mong một câu chuyện thật có thể giúp ai đó có thêm động lực bước tiếp.</p>
+   </article>
+  </div>
+ </div>
+</section>
+<section class="section timeline" id="hanh-trinh">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Những dấu mốc đáng nhớ</div><h2>Đường dài được làm nên từ những bước nhỏ.</h2><p>Không phải bước nào cũng dễ dàng. Nhưng mỗi bước đều có thể dạy ta điều gì đó.</p></div>
+  <div class="timeline-grid">
+   <article class="milestone"><div class="year">BÀI HỌC ĐẦU ĐỜI</div><h3>Biết quý sức khỏe</h3><p>Từ những ngày cơ thể yếu đuối, tôi học cách lắng nghe mình, chăm sóc mình và không xem sức khỏe là điều hiển nhiên.</p></article>
+   <article class="milestone"><div class="year">05 · 04 · 2026</div><h3>21 km về nguồn</h3><p>Hoàn thành Đền Hùng Marathon ở tuổi 55. Một tấm huy chương nhỏ, một niềm vui lớn và một kỷ niệm muốn truyền lại cho con cháu.</p></article>
+   <article class="milestone"><div class="year">MỖI NGÀY</div><h3>Học điều mới</h3><p>Từ chạy bộ đến học AI, từ viết một bài chia sẻ đến làm video. Chậm cũng được, miễn là còn tò mò và chịu bắt đầu.</p></article>
+  </div>
+ </div>
+</section>
+<section class="section" id="gia-tri">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Điều tôi muốn giữ</div><h2>Năm điều làm gốc cho một đời sống bình an.</h2><p>Không phải khẩu hiệu treo trên tường. Là những điều tôi muốn nhắc mình trong các lựa chọn hằng ngày.</p></div>
+  <div class="values">
+   <div class="value"><span>🌿</span><h3>Biết đủ</h3><p>Không ngừng cố gắng, nhưng không để lòng tham lấy mất sự bình yên.</p></div>
+   <div class="value"><span>🙏</span><h3>Biết ơn</h3><p>Nhớ người đã thương mình, nhớ những điều bình thường đang nâng đỡ mình.</p></div>
+   <div class="value"><span>🍃</span><h3>Thuận tự nhiên</h3><p>Kiên trì làm điều đúng, biết lúc nào cần nghỉ và không cưỡng ép mọi thứ.</p></div>
+   <div class="value"><span>🤝</span><h3>Sống tử tế</h3><p>Đối xử chân thành, giữ lời và đừng làm khó người khác nếu không cần thiết.</p></div>
+   <div class="value"><span>☀️</span><h3>An nhiên</h3><p>Chăm điều mình có thể làm, bớt ôm điều nằm ngoài khả năng.</p></div>
+  </div>
+ </div>
+</section>
+<section class="section posts" id="goc-viet">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Góc chia sẻ</div><h2>Những chuyện nhỏ, những điều muốn gửi lại.</h2><p>Mỗi bài viết là một lời nhắc nhẹ nhàng để chúng ta sống sâu hơn, thương nhau nhiều hơn và chăm sóc cuộc đời mình tốt hơn.</p></div>
+  <div class="post-grid">
+   <article class="post"><div class="tag">Sức khỏe · Thói quen</div><h3>Tài sản quý nhất nằm trong những nhịp thở đầu ngày</h3><p>Đôi khi, thay đổi không bắt đầu từ điều lớn lao. Nó bắt đầu từ lúc ta thức dậy, hít thở chậm và chịu vận động một chút.</p><a class="read" href="#ket-noi">Đọc và trao đổi ↗</a></article>
+   <article class="post"><div class="tag">Gia đình · Lòng biết ơn</div><h3>Còn cha mẹ, xin đừng để lời hỏi thăm thành chuyện ngày mai</h3><p>Tiền có thể kiếm lại. Thời gian bên cha mẹ thì không. Một cuộc gọi hôm nay đôi khi quý hơn món quà lớn.</p><a class="read" href="#ket-noi">Đọc và trao đổi ↗</a></article>
+   <article class="post"><div class="tag">Học hỏi · Công nghệ</div><h3>Ở tuổi nào, ta cũng có quyền bắt đầu một điều mới</h3><p>Không biết thì học. Chưa làm được thì làm từng bước. Đừng để nỗi sợ bị chê cười quyết định phần đời còn lại.</p><a class="read" href="#ket-noi">Đọc và trao đổi ↗</a></article>
+   <article class="post"><div class="tag">Hôn nhân · Nghĩa tình</div><h3>Sau nhiều năm chung sống, điều quý nhất là còn thương nhau</h3><p>Tình nghĩa không chỉ nằm trong lời nói lớn. Nó ở bữa cơm, lúc chăm nhau mệt và những lần biết nhường một câu.</p><a class="read" href="#ket-noi">Đọc và trao đổi ↗</a></article>
+   <article class="post"><div class="tag">Triết lý sống</div><h3>Không có ánh sáng, ngay cả cái bóng cũng bỏ bạn mà đi</h3><p>Một câu ngắn để nhắc mình giữ lấy ánh sáng bên trong: lòng tử tế, sự tự trọng và khả năng đứng dậy sau khó khăn.</p><a class="read" href="#ket-noi">Đọc và trao đổi ↗</a></article>
+   <article class="post"><div class="tag">Về nguồn · Nội tâm</div><h3>Càng đi xa, càng cần biết đường trở về</h3><p>Trở về với gia đình, với những điều giản dị, với cơ thể mình và với câu hỏi: điều gì thật sự đáng để mình dành thời gian?</p><a class="read" href="#ket-noi">Đọc và trao đổi ↗</a></article>
+  </div>
+ </div>
+</section>
+<section class="manifesto">
+ <div class="wrap">
+  <div class="eyebrow">Lời nhắn gửi</div>
+  <h2>Tôi không mong ai ngưỡng mộ mình.<br>Tôi mong ai đó có thêm niềm tin vào chính họ.</h2>
+  <p>Nếu câu chuyện đời thường của tôi giúp bạn gọi điện về nhà, đi bộ thêm mười phút, học một điều mới hay đối xử tử tế hơn với người bên cạnh, như thế đã là một món quà.</p>
+  <div class="signature">Cường Chân Chất</div>
+ </div>
+</section>
+<section class="section" id="ket-noi">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Kết nối chân thành</div><h2>Ta có thể học được điều gì từ câu chuyện của nhau?</h2><p>Hãy để lại một lời nhắn hoặc một chủ đề bạn muốn cùng trò chuyện. Biểu mẫu dưới đây là bản minh họa phía trình duyệt, chưa gửi dữ liệu lên máy chủ.</p></div>
+  <div class="contact-grid">
+   <div><h3 style="font-size:29px;color:var(--forest)">Một góc nhỏ dành cho người thích sống thật.</h3><p>Tôi muốn kết nối với những người đang quan tâm đến sức khỏe, gia đình, học hỏi suốt đời, công nghệ và cách tạo ra giá trị chân chính trên không gian mạng.</p><p><strong>Chủ đề bạn có thể gợi ý:</strong></p><p>• Thói quen sống và vận động mỗi ngày<br>• Chăm sóc cha mẹ, vun đắp gia đình<br>• Học AI từ con số không<br>• Viết và kể chuyện bằng trải nghiệm thật</p></div>
+   <form class="contact-card" id="messageForm"><h3>Gửi lời nhắn</h3><input id="name" name="name" placeholder="Tên của bạn" required><input id="email" name="email" type="email" placeholder="Email (không bắt buộc)"><textarea id="message" name="message" placeholder="Bạn muốn chia sẻ điều gì?" required></textarea><button class="btn btn-gold" type="submit">Tạo lời nhắn</button><p class="note" id="formNote">Lời nhắn sẽ hiện trên màn hình để bạn sao chép; trang chưa có máy chủ nhận thư.</p></form>
+  </div>
+ </div>
+</section>
+</main>
+<footer><div class="wrap footer-inner"><div class="brand" style="color:#f8f2e5"><span class="brand-mark" style="background:#d0bd88;color:#173d32">C</span><span>CƯỜNG CHÂN CHẤT</span></div><div class="footer-small">SỐNG THẬT · SỐNG TỬ TẾ · SỐNG CÓ ÍCH</div><div class="footer-small">© <span id="year"></span> Lăng Đình Cường</div></div></footer>
+<button class="top" id="topBtn" aria-label="Lên đầu trang" title="Lên đầu trang">↑</button>
+<script>
+const menuBtn=document.getElementById('menuBtn');
+const navLinks=document.getElementById('navLinks');
+menuBtn.addEventListener('click',()=>navLinks.classList.toggle('open'));
+navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>navLinks.classList.remove('open')));
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('topBtn').addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+document.getElementById('messageForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ const name=document.getElementById('name').value.trim();
+ const email=document.getElementById('email').value.trim();
+ const message=document.getElementById('message').value.trim();
+ const output=`LỜI NHẮN GỬI CƯỜNG CHÂN CHẤT\nTên: ${name}\nEmail: ${email||'(chưa cung cấp)'}\nNội dung: ${message}`;
+ const note=document.getElementById('formNote');
+ note.textContent=output;
+ const blob=new Blob([output],{type:'text/plain;charset=utf-8'});
+ const url=URL.createObjectURL(blob);
+ const link=document.createElement('a');link.href=url;link.download='loi-nhan-cuong-chan-chat.txt';link.textContent='Tải lời nhắn về máy';
+ link.style.display='inline-block';link.style.marginTop='10px';link.style.color='#285746';link.style.fontWeight='bold';
+ note.appendChild(document.createElement('br'));note.appendChild(link);
+});
+</script>
+</body>
+</html>
